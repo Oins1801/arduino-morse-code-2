@@ -33,21 +33,225 @@ void loop() {
   // O
   delay(3 * UNIT); 
       // dash
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(3 * UNIT);                        // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  digitalWrite(LED_BUILTIN, HIGH);      // turn the LED on (HIGH is the voltage level)
+  delay(3 * UNIT);                          // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
   delay(UNIT);    
       // dash
-  digitalWrite(LED_BUILTIN, HIGH);    // turn the LED off by making the voltage HIGH
-} delay( 3 * UNIT);                          // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  digitalWrite(LED_BUILTIN, HIGH);      // turn the LED off by making the voltage HIGH
+} delay(3 * UNIT);                          // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
   delay(UNIT);
-     // dash 
+      // dash 
+  digitalWrite(LED_BUILTIN, HIGH);      // turn the LED on (HIGH is the voltage level)
+  delay(3 * UNIT);                          // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
+  delay(UNIT);
+
+  // l 
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);      // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                              // wait for a second 
+  digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
+  delay(3 * UNIT);
+      // dash
+  digitalWrite(LED_BUILTIN, HIGH);      // turn the LED on (HIGH is the voltage level)
+  delay(3 * UNIT);                         // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
+  delay(UNIT);
+      // dot
+  digitalWrite(LED_BUILTIN, HIGH);      // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                              // wait for a second 
+  digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);      // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                              // wait for a second
+  digitalWrite(LED_BUILTIN, LOW)      // turn the LED off by making the voltage LOW
+  delay(UNIT);
+
+  // i 
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);      // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                              // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);      // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                              // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
+  delay(UNIT);
+
+  // v
+  delay(UNIT);
+      // dot
+  digitalWrite(LED_BUILTIN, HIGH);    // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                            // wait for a second 
+  digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
+  delay(UNIT);
+      // dot
+  digitalWrite(LED_BUILTIN, HIGH);    // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                            // wait for a second 
+  digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW 
+   delay(UNIT);
+      // dot
+  digitalWrite(LED_BUILTIN, HIGH);    // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                            // wait for a second 
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(3 * UNIT); 
+      // dash
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(3 * UNIT);                            // wait for a second
+  delay(3 * UNIT);                       // wait for a second
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   delay(UNIT);
 
+  // i 
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(UNIT);
+
+
+  // a
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(3 * UNIT); 
+      // dash
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(3 * UNIT);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(7 * UNIT);
+
+  // s 
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(UNIT);
+      // dot
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(UNIT);
+
+  // a
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);    // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
+  delay(3 * UNIT); 
+      // dash
+  digitalWrite(LED_BUILTIN, HIGH);    // turn the LED on (HIGH is the voltage level)
+  delay(3 * UNIT);                         wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(UNIT);
+  
+  // y
+  delay(3 * UNIT);
+      // dash
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                            wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by
+  delay(UNIT);
+      // dot
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);  // turn the LED off by making the voltage LOW
+  delay(3 * UNIT);
+      // dash
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                            wait for a second
+  digitalWrite(LED_BUILTIN, LOW);  // turn the LED off by
+  delay(3 * UNIT);
+      // dash     
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                            wait for a second
+  digitalWrite(LED_BUILTIN, LOW);  // turn the LED off by
+  delay(UNIT);
+
+  // s 
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(UNIT);
+      // dot
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(UNIT);
+
+  // h 
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                           wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(UNIT);
+
+  // i 
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);      // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                              // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
+  delay(UNIT);
+      // dot 
+  digitalWrite(LED_BUILTIN, HIGH);      // turn the LED on (HIGH is the voltage level)
+  delay(UNIT);                              // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
+  delay(UNIT);
+
+  
+  
+  
+  
+
+
+  
+
+  
+     
   
 
 
